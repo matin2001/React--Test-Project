@@ -1,0 +1,57 @@
+.body {
+  display: grid;
+  grid-template-columns: 15vw 85vw;
+}
+
+.navbar {
+  background-color: #F2CD5C;
+  color: black;
+  height: 100%;
+  margin-top: -0.1vh;
+  font-size: 1.5rem;
+}
+.eee{
+  transition-duration: 0.3s;
+}
+.eee:hover{
+  background-color: black;
+  color: #F2CD5C !important;
+}
+
+.opening {
+  margin: 0 5vw;
+  margin-top: 6vh;
+  border: 1px solid black;
+  padding: 2vh;
+  text-align: left;
+  border-radius: 6px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 60vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  grid-gap: 5vh;
+  height: 40vh;
+}
+.button {
+  background-color: #F2921D;
+  color: #400E32;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 1em;
+  transition-duration: 0.3s;
+}
+.button:hover{
+  background-color: #400E32;
+  color: #F2921D;
+}
+
+.history{
+    width: 20vw;
+    margin-top: 8vh;
+    height: 5vh;
+    margin-bottom: 10vh;
+}

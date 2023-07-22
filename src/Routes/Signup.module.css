@@ -1,0 +1,43 @@
+.background {
+    background-color: #03001c;
+    height: 90vh;
+    overflow: hidden;
+  }
+  
+  .middle {
+    background-color: #b6eada;
+    height: 56vh;
+    width: 60vw;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 8px;
+  }
+  
+  .text {
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+  }
+  
+  .form {
+    margin: auto;
+    width: 45vw;
+  }
+  
+  .button {
+    width: 10vw;
+    margin-top: 3vh;
+  }
+  .go_signup {
+    margin-top: 2vh;
+    opacity: 70%;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: large;
+    transition-duration: 0.5s;
+  }
+  .go_signup:hover {
+    font-size: larger;
+  }
+  

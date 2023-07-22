@@ -1,0 +1,61 @@
+.body {
+  display: grid;
+  grid-template-columns: 15vw 85vw;
+}
+
+.navbar {
+  background-color: #f2cd5c;
+  color: black;
+  height: 100%;
+  margin-top: -0.1vh;
+  font-size: 1.5rem;
+}
+.eee {
+  transition-duration: 0.3s;
+}
+.eee:hover {
+  background-color: black;
+  color: #f2cd5c !important;
+}
+
+.opening {
+  margin: 0 5vw;
+  margin-top: 6vh;
+  border: 1px solid black;
+  padding: 2vh;
+  text-align: left;
+  border-radius: 6px;
+}
+.section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  text-align: left;
+  width: 50vw;
+  margin-left: 5vw;
+  font-size: 1.1rem;
+  margin-bottom: 3vh;
+}
+
+.past {
+  margin-bottom: 4vh;
+  font-size: 1.8em;
+  color: blue;
+  font-weight: bold;
+}
+.table {
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.ppp {
+  background-color: lightcyan;
+  width: 70vw;
+  border-radius: 0.4em;
+  padding: 3vh;
+  margin: 0 auto;
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+}
+.myB:hover{
+  opacity: 90%;
+}
